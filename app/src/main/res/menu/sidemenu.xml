@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText"
+    >
+    //menu 1
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/settings_menu"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="settings" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="ABOUT" />
+    </group>
+    //menu2
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Authentication">
+            <menu>
+                <item
+                    android:id="@+id/login"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="login" />
+                <item
+                    android:id="@+id/log_out"
+                    android:icon="@drawable/ic_baseline_logout_24"
+                    android:title="Logout" />
+            </menu>
+
+        </item>
+
+    </group>
+    //menu 3
+    //invite people to join application
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Others">
+            <menu>
+                <item
+                    android:id="@+id/share_me"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="invite" />
+                <item
+                    android:id="@+id/exit"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:title="Exit" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
