@@ -5,7 +5,7 @@
     <string name="navigation_open">open Navigation drawer</string>
     <string name="navigation_close">close Navigation drawer</string>
     <string name="title_activity_maps">MapsActivity</string>
-    <string name="YOUR_API_KEY">AIzaSyCskmHUygIQ6iFarXsZ1KnqppNlt3TzaCY</string>
+    <string name="YOUR_API_KEY">"ADD Your KEY"</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
