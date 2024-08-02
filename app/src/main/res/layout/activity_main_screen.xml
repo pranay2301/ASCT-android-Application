@@ -8,16 +8,10 @@
     android:id="@+id/drawer2"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
-    <com.google.android.material.navigation.NavigationView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:id="@+id/navigationview1"
-        app:headerLayout="@layout/headerfile"
-        app:menu="@menu/sidemenu"
-        android:layout_gravity="start"/>
+
 
     <ScrollView
-        android:background="@color/white"
+        android:background="@drawable/main1"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -52,11 +46,14 @@
             android:layout_height="87dp"
             android:layout_marginStart="3dp"
             android:layout_marginTop="8dp"
-            android:background="@color/purple_700"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
             android:text="ASCT"
             android:textColor="@color/black"
             android:textSize="40dp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintEnd_toStartOf="@+id/imageView2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/toolbar1" />
 
@@ -72,7 +69,6 @@
         app:srcCompat="@drawable/logo2_0" />
 
     <TextView
-        android:background="@color/teal_200"
         android:id="@+id/textView5"
         android:layout_width="209dp"
         android:layout_height="40dp"
@@ -90,7 +86,7 @@
         android:layout_height="193dp"
         android:layout_marginTop="480dp"
         android:orientation="horizontal"
-        android:background="@color/white"
+        android:background="#00000000"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -99,7 +95,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/white"
+            android:background="#00000000"
             android:layout_margin="10dp"
             android:layout_weight="1">
 
@@ -109,7 +105,7 @@
 
                 <ImageView
                     android:id="@+id/imageView9"
-                    android:background="@color/white"
+                    android:background="#55FFFFFF"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     app:srcCompat="@drawable/train" />
@@ -220,7 +216,13 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
-
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationview1"
+        app:headerLayout="@layout/headerfile"
+        app:menu="@menu/sidemenu"
+        android:layout_gravity="start"/>
 
 
 </androidx.drawerlayout.widget.DrawerLayout>

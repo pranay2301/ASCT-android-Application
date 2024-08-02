@@ -8,11 +8,11 @@
     tools:context=".MapsActivity">
 
     <fragment
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/map"
-    tools:context=".MapsActivity"
-    android:name="com.google.android.gms.maps.SupportMapFragment"/>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
 
     <EditText
         android:id="@+id/reset"
@@ -35,4 +35,4 @@
         android:src="@drawable/ic_baseline_search_24"
         />
 
-    </RelativeLayout>
+</RelativeLayout>

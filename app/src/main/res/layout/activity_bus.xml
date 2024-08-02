@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="314dp"
+        android:layout_height="85dp"
+        android:contentDescription="Bus"
+        android:src="@drawable/bus_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/bus1"
+            android:layout_width="154dp"
+            android:layout_height="132dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@null"
+            android:contentDescription="Bus5"
+            android:src="@drawable/abhibus_logo_large" />
+
+        <ImageButton
+            android:id="@+id/bus2"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            android:layout_marginStart="16dp"
+            android:background="@null"
+            android:contentDescription=""
+            android:src="@drawable/tourism_logo" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/bus3"
+        android:layout_width="253dp"
+        android:layout_height="104dp"
+        android:background="@null"
+        android:layout_marginTop="16dp"
+        android:contentDescription="bus3"
+        android:src="@drawable/redbus" />
+
+    <ImageButton
+        android:id="@+id/bus4"
+        android:layout_width="256dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="18dp"
+        android:background="@null"
+        android:contentDescription=""
+        android:src="@drawable/irctc" />
+
+</LinearLayout>
