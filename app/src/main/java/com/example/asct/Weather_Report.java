@@ -23,7 +23,7 @@ public class Weather_Report extends AppCompatActivity {
     private TextView resultTextView;
     private Button searchButton;
 
-    private String API_KEY = "079e73596d3ebd0eef0da8e33baa2659";
+    private String API_KEY = "Your Api Key";
     private String BASE_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
 
     @Override
